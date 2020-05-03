@@ -1,0 +1,339 @@
+Title: Cardiac Arrhythmia Database
+
+Abstract
+Changes in the normal rhythm of a human heart may result in different cardiac arrhythmias,
+which may be immediately fatal or cause irreparable damage to the heart sustained over long periods of time.
+The ability to automatically identify arrhythmias from ECG recordings is important for clinical diagnosis and treatment. 
+
+Number of Instances: 452
+Number of Attributes: 279
+
+Attributes Info
+1.Age: Age in years
+2.Sex: Sex (0 = male; 1 = female)
+3.Height: Height in centimeters
+4.Weight: Weight in kilograms
+5.QRS duration: Average of QRS duration in msec.
+6.P-R interval: Average duration between onset of P and Q waves in msec.
+7.Q-T interval: Average duration between onset of Q and offset of T waves in msec.
+8.T interval: Average duration of T wave in msec.
+9.P interval: Average duration of P wave in msec.
+10.QRS
+11.T
+12.P
+13.QRST
+14.J
+15.Heart rate: Number of heart beats per minute
+
+CDI.msec-Q wave  
+17.	CDI.msec-R wave  
+18.	CDI.msec-S wave  
+19.	CDI.msec-R_ wave  
+20.	CDI.msec-S_ wave  
+21.	CDI.msec-Number of intrinsic deflections  
+22.	CDI.msec-Existence of ragged R wave  
+23.	CDI.msec-Existence of diphasic derivation of R wave  
+24.	CDI.msec-Existence of ragged P wave  
+25.	CDI.msec-Existence of diphasic derivation of P wave  
+26.	CDI.msec-Existence of ragged T wave  	
+27.	CDI.msec-Existence of diphasic derivation of T wave  
+
+Of channel DII:
+28.	CDII.msec-Q wave  
+29.	CDII.msec-R wave  
+30.	CDII.msec-S wave  
+31.	CDII.msec-R_ wave  
+32.	CDII.msec-S_ wave  
+33.	CDII.msec-Number of intrinsic deflections  
+34.	CDII.msec-Existence of ragged R wave  
+35.	CDII.msec-Existence of diphasic derivation of R wave  
+36.	CDII.msec-Existence of ragged P wave  
+37.	CDII.msec-Existence of diphasic derivation of P wave  
+38.	CDII.msec-Existence of ragged T wave  
+39.	CDII.msec-Existence of diphasic derivation of T wave  
+
+Of channels DIII:
+40.	CDIII.msec-Q wave  
+41.	CDIII.msec-R wave  
+42.	CDIII.msec-S wave  
+43.	CDIII.msec-R_ wave  
+44.	CDIII.msec-S_ wave  
+45.	CDIII.msec-Number of intrinsic deflections  
+46.	CDIII.msec-Existence of ragged R wave  
+47.	CDIII.msec-Existence of diphasic derivation of R wave  
+48.	CDIII.msec-Existence of ragged P wave  
+49.	CDIII.msec-Existence of diphasic derivation of P wave  
+50.	CDIII.msec-Existence of ragged T wave  
+51.	CDIII.msec-Existence of diphasic derivation of T wave
+
+Of channel AVR  
+52.	AVR.msec-Q wave  
+53.	AVR.msec-R wave  
+54.	AVR.msec-S wave  
+55.	AVR.msec-R_ wave  
+56.	AVR.msec-S_ wave  
+57.	AVR.msec-Number of intrinsic deflections  
+58.	AVR.msec-Existence of ragged R wave  
+59.	AVR.msec-Existence of diphasic derivation of R wave  
+60.	AVR.msec-Existence of ragged P wave  
+61.	AVR.msec-Existence of diphasic derivation of P wave  
+62.	AVR.msec-Existence of ragged T wave  
+63.	AVR.msec-Existence of diphasic derivation of T wave
+
+Of channel AVL 
+64.	AVL.msec-Q wave  
+65.	AVL.msec-R wave  
+66.	AVL.msec-S wave  
+67.	AVL.msec-R_ wave  
+68.	AVL.msec-S_ wave  
+69.	AVL.msec-Number of intrinsic deflections  
+70.	AVL.msec-Existence of ragged R wave  
+71.	AVL.msec-Existence of diphasic derivation of R wave  
+72.	AVL.msec-Existence of ragged P wave  
+73.	AVL.msec-Existence of diphasic derivation of P wave  
+74.	AVL.msec-Existence of ragged T wave  
+75.	AVL.msec-Existence of diphasic derivation of T wave
+
+Of channel AVF
+76.	AVF.msec-Q wave  
+77.	AVF.msec-R wave  
+78.	AVF.msec-S wave  
+79.	AVF.msec-R_ wave  
+80.	AVF.msec-S_ wave  
+81.	AVF.msec-Number of intrinsic deflections  
+82.	AVF.msec-Existence of ragged R wave  
+83.	AVF.msec-Existence of diphasic derivation of R wave  
+84.	AVF.msec-Existence of ragged P wave  
+85.	AVF.msec-Existence of diphasic derivation of P wave  
+86.	AVF.msec-Existence of ragged T wave  
+87.	AVF.msec-Existence of diphasic derivation of T wave
+
+Of channel V1  
+88.	V1.msec-Q wave  
+89.	V1.msec-R wave  
+90.	V1.msec-S wave  
+91.	V1.msec-R_ wave  
+92.	V1.msec-S_ wave  
+93.	V1.msec-Number of intrinsic deflections  
+94.	V1.msec-Existence of ragged R wave  
+95.	V1.msec-Existence of diphasic derivation of R wave  
+96.	V1.msec-Existence of ragged P wave  
+97.	V1.msec-Existence of diphasic derivation of P wave  
+98.	V1.msec-Existence of ragged T wave  
+99.	V1.msec-Existence of diphasic derivation of T wave
+
+Of channel V2  
+100.	V2.msec-Q wave  
+101.	V2.msec-R wave  
+102.	V2.msec-S wave  
+103.	V2.msec-R_ wave  
+104.	V2.msec-S_ wave  
+105.	V2.msec-Number of intrinsic deflections  
+106.	V2.msec-Existence of ragged R wave  
+107.	V2.msec-Existence of diphasic derivation of R wave  
+108.	V2.msec-Existence of ragged P wave  
+109.	V2.msec-Existence of diphasic derivation of P wave  
+110.	V2.msec-Existence of ragged T wave  
+111.	V2.msec-Existence of diphasic derivation of T wave
+
+Of channel V3 
+112.	V3.msec-Q wave  
+113.	V3.msec-R wave  
+114.	V3.msec-S wave  
+115.	V3.msec-R_ wave  
+116.	V3.msec-S_ wave  
+117.	V3.msec-Number of intrinsic deflections  
+118.	V3.msec-Existence of ragged R wave  
+119.	V3.msec-Existence of diphasic derivation of R wave  
+120.	V3.msec-Existence of ragged P wave  
+121.	V3.msec-Existence of diphasic derivation of P wave  
+122.	V3.msec-Existence of ragged T wave  
+123.	V3.msec-Existence of diphasic derivation of T wave
+
+Of channel V4  
+124.	V4.msec-Q wave  
+125.	V4.msec-R wave  
+126.	V4.msec-S wave  
+127.	V4.msec-R_ wave  
+128.	V4.msec-S_ wave  
+129.	V4.msec-Number of intrinsic deflections  
+130.	V4.msec-Existence of ragged R wave  
+131.	V4.msec-Existence of diphasic derivation of R wave  
+132.	V4.msec-Existence of ragged P wave  
+133.	V4.msec-Existence of diphasic derivation of P wave  
+134.	V4.msec-Existence of ragged T wave  
+135.	V4.msec-Existence of diphasic derivation of T wave
+
+Of channel V5  
+136.	V5.msec-Q wave  
+137.	V5.msec-R wave  
+138.	V5.msec-S wave  
+139.	V5.msec-R_ wave  
+140.	V5.msec-S_ wave  
+141.	V5.msec-Number of intrinsic deflections  
+142.	V5.msec-Existence of ragged R wave  
+143.	V5.msec-Existence of diphasic derivation of R wave  
+144.	V5.msec-Existence of ragged P wave  
+145.	V5.msec-Existence of diphasic derivation of P wave  
+146.	V5.msec-Existence of ragged T wave  
+147.	V5.msec-Existence of diphasic derivation of T wave
+
+Of channel V6
+148.	V6.msec-Q wave  
+149.	V6.msec-R wave  
+150.	V6.msec-S wave  
+151.	V6.msec-R_ wave  
+152.	V6.msec-S_ wave  
+153.	V6.msec-Number of intrinsic deflections  
+154.	V6.msec-Existence of ragged R wave  
+155.	V6.msec-Existence of diphasic derivation of R wave  
+156.	V6.msec-Existence of ragged P wave  
+157.	V6.msec-Existence of diphasic derivation of P wave  
+158.	V6.msec-Existence of ragged T wave  
+159.	V6.msec-Existence of diphasic derivation of T wave 
+
+Of channel DI:Amplitude , * 0.1 milivolt, of
+160.	JJ.milivolt wave  
+161.	Q.milivolt wave  
+162.	R.milivolt wave  
+163.	S.milivolt wave  
+164.	R_.milivolt wave  
+165.	S_.milivolt wave  
+166.	P.milivolt wave  
+167.	T.milivolt wave 
+168.	QRSA.milivolt, Sum of areas of all segments divided by 10,( Area= width * height / 2 
+169.	QRSTA.milivolt  = QRSA + 0.5 * width of T wave * 0.1 * height of T wave. 
+
+Of channel DII
+170.  CDII_JJ.milivolt wave  
+171.	CDII_Q.milivolt wave  
+172.	CDII_R.milivolt wave  
+173.	CDII_S.milivolt wave  
+174.	CDII_R_.milivolt wave  
+175.	CDII_S_.milivolt wave  
+176.	CDII_P.milivolt wave  
+177.	CDII_T.milivolt wave  
+178.	CDII_QRSA.milivolt  
+179.	CDII_QRSTA.milivolt
+
+Of channel DIII 
+180.	CDIII_JJ.milivolt wave  
+181.	CDIII_Q.milivolt wave  
+182.	CDIII_R.milivolt wave  
+183.	CDIII_S.milivolt wave  
+184.	CDIII_R_.milivolt wave  
+185.	CDIII_S_.milivolt wave  
+186.	CDIII_P.milivolt wave  
+187.	CDIII_T.milivolt wave  
+188.	CDIII_QRSA.milivolt  
+189.	CDIII_QRSTA.milivolt
+ 
+Of channel AVR: 
+190.	AVR_JJ.milivolt wave  
+191.	AVR_Q.milivolt wave  
+192.	AVR_R.milivolt wave  
+193.	AVR_S.milivolt wave  
+194.	AVR_R_.milivolt wave  
+195.	AVR_S_.milivolt wave  
+196.	AVR_P.milivolt wave  
+197.	AVR_T.milivolt wave  
+198.	AVR_QRSA.milivolt  
+199.	AVR_QRSTA.milivolt
+
+Of channel AVL  
+200.	AVL_JJ.milivolt wave  
+201.	AVL_Q.milivolt wave  
+202.	AVL_R.milivolt wave  
+203.	AVL_S.milivolt wave  
+204.	AVL_R_.milivolt wave  
+205.	AVL_S_.milivolt wave  
+206.	AVL_P.milivolt wave  
+207.	AVL_T.milivolt wave  
+208.	AVL_QRSA.milivolt  
+209.	AVL_QRSTA.milivolt
+
+Of channel AVF  
+210.	AVF_JJ.milivolt wave  
+211.	AVF_Q.milivolt wave
+212.	AVF_R.milivolt wave  
+213.	AVF_S.milivolt wave  
+214.	AVF_R_.milivolt wave  
+215.	AVF_S_.milivolt wave  
+216.	AVF_P.milivolt wave  
+217.	AVF_T.milivolt wave  
+218.	AVF_QRSA.milivolt  
+219.	AVF_QRSTA.milivolt
+
+Of channel V1  
+220.	V1_JJ.milivolt wave  
+221.	V1_Q.milivolt wave  
+222.	V1_R.milivolt wave  
+223.	V1_S.milivolt wave  
+224.	V1_R_.milivolt wave  
+225.	V1_S_.milivolt wave  
+226.	V1_P.milivolt wave  
+227.	V1_T.milivolt wave  
+228.	V1_QRSA.milivolt  
+229.	V1_QRSTA.milivolt
+
+
+Of channel V2  
+230.	V2_JJ.milivolt wave
+231.	V2_Q.milivolt wave  
+232.	V2_R.milivolt wave  
+233.	V2_S.milivolt wave  
+234.	V2_R_.milivolt wave  
+235.	V2_S_.milivolt wave  
+236.	V2_P.milivolt wave  
+237.	V2_T.milivolt wave  
+238.	V2_QRSA.milivolt  
+239.	V2_QRSTA.milivolt
+
+Of channel V3  
+240.	V3_JJ.milivolt wave  
+241.	V3_Q.milivolt wave  
+242.	V3_R.milivolt wave  
+243.	V3_S.milivolt wave  
+244.	V3_R_.milivolt wave  
+245.	V3_S_.milivolt wave  
+246.	V3_P.milivolt wave  
+247.	V3_T.milivolt wave  
+248.	V3_QRSA.milivolt  
+249.	V3_QRSTA.milivolt
+
+Of channel V4
+250.	V4_JJ.milivolt wave
+251.	V4_Q.milivolt wave
+252.	V4_R.milivolt wave
+253.	V4_S.milivolt wave
+254.	V4_R_.milivolt wave
+255.	V4_S_.milivolt wave  
+256.	V4_P.milivolt wave
+257.	V4_T.milivolt wave  
+258.	V4_QRSA.milivolt  
+259.	V4_QRSTA.milivolt
+
+Of channel V5
+260.	V5_JJ.milivolt wave  
+261.	V5_Q.milivolt wave  
+262.	V5_R.milivolt wave  
+263.	V5_S.milivolt wave  
+264.	V5_R_.milivolt wave  
+265.	V5_S_.milivolt wave  
+266.	V5_P.milivolt wave  
+267.	V5_T.milivolt wave  
+268.	V5_QRSA.milivolt  
+269.	V5_QRSTA.milivolt
+
+Of channel V6  
+270.	V6_JJ.milivolt wave  
+271.	V6_Q.milivolt wave  
+272.	V6_R.milivolt wave  
+273.	V6_S.milivolt wave  
+274.	V6_R_.milivolt wave  
+275.	V6_S_.milivolt wave  
+276.	V6_P.milivolt wave  
+277.	V6_T.milivolt wave  
+278.	V6_QRSA.milivolt  
+279.	V6_QRSTA.milivolt  
+280.	Class Distribution
